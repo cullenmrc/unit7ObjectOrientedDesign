@@ -42,6 +42,7 @@ public class NumericQuestion extends Question
         double responseAsDouble = Double.parseDouble( response );
         return Math.abs( responseAsDouble - numericAnswer ) <= 0.01;
     }
+}
     
     
     
